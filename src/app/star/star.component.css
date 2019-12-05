@@ -1,0 +1,16 @@
+.crop {
+  overflow: hidden;
+  color: goldenrod;
+}
+div {
+  cursor: pointer;
+  padding-top: 150px;
+  padding-left: 220px;
+}
+.fa-star:before {
+    width: 70px;
+    height: 70px;
+    display: contents;
+    font-size: 100px;
+}
+
