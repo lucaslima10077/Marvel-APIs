@@ -1,4 +1,3 @@
-
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
@@ -11,11 +10,7 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { HttpClientModule } from '@angular/common/http';
 import { MatCardModule, MatFormFieldModule } from '@angular/material';
 import { CharactersComponent } from './characters.component';
-import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CharactersRoutingModule } from './characters-routing.module';
-
-
-
 
 @NgModule({
   declarations: [

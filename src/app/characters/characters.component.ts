@@ -1,5 +1,4 @@
 import { Images } from './../models/images';
-import { Observable, observable } from 'rxjs';
 import { CharactersApiService } from './shared/characters-api.service';
 import { Component, OnInit } from '@angular/core';
 

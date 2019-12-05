@@ -1,4 +1,4 @@
-import { Images } from './../../models/images';
+import { Images } from './../../../models/images';
 import { map } from 'rxjs/operators';
 import { Observable } from 'rxjs';
 import { Injectable } from '@angular/core';
@@ -14,7 +14,7 @@ export class CharactersApiService {
   constructor(private http: HttpClient) {}
 
     getAllCharacters(): Observable<Images> {
-      return this.http.get<Images>(this.URL_API)
+      return this.http.get<any>(this.URL_API)
         .pipe(map((data: any) => data.data.results));
     }
 

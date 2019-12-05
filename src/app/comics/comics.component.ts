@@ -10,7 +10,6 @@ import { ComicService } from './shared/comic-api.service';
 })
 export class ComicsComponent implements OnInit {
 
-
   constructor(private comicSvc: ComicService) { }
   allComics: Images;
 
